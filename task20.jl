@@ -4,16 +4,16 @@ function lab_20(r)
     my_ans = 0
     border_now = false
     side = East
-    while !isborder(r, North)
+    while !isborder(r, Nord)
         
         while !isborder(r, side)
-            my_ans, border_now = find_special!(r, my_ans, border_now, North)
+            my_ans, border_now = find_special!(r, my_ans, border_now, Nord)
             move!(r,side)
         end
-        my_ans, border_now = find_special!(r, my_ans, border_now, North)
+        my_ans, border_now = find_special!(r, my_ans, border_now, Nord)
 
         side = inverse_side(side)
-        move!(r, North)
+        move!(r, Nord)
     end
     return my_ans
 end
