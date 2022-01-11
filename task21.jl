@@ -6,15 +6,15 @@ function lab_21(r)
 
     border_ver = false
     border_hor = false
-    side = East
+    side = Ost
 
-    while !isborder(r, North)
+    while !isborder(r, Nord)
         while move_if_possible!(r, side)
-            horizontal, border_hor = find_special!(r, horizontal, border_hor, North)
+            horizontal, border_hor = find_special!(r, horizontal, border_hor, Nord)
             vertical, border_ver = find_special!(r, vertical, border_ver, West)
         end
 
-        horizontal, border_hor = find_special!(r, horizontal, border_hor, North)
+        horizontal, border_hor = find_special!(r, horizontal, border_hor, Nord)
         vertical, border_ver = find_special!(r, vertical, border_ver, West)
 
         side = inverse_side(side)
