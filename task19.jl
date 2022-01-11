@@ -1,6 +1,6 @@
 function lab_19(r::Robot)
     steps = 1
-    side = North
+    side = Nord
     while ismarker(r)==false
         for _ in 1:2
             special_move!(r,side,steps)
