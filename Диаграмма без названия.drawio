@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T17:13:44.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="H-9uAUMLLOzdE5Gp8slh" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T17:16:51.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="fn3Xee-aMn3d2rSZZRkV" version="21.0.2" type="github">
   <diagram name="Страница 1" id="9wwhK91GliaIkrRcYlGO">
     <mxGraphModel dx="1702" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,8 +36,8 @@
             <mxPoint x="250" y="580" as="targetPoint" />
             <Array as="points">
               <mxPoint x="334" y="740" />
-              <mxPoint x="232" y="740" />
-              <mxPoint x="232" y="560" />
+              <mxPoint x="220" y="740" />
+              <mxPoint x="220" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -71,10 +71,22 @@
         <mxCell id="qapMyjUpP5S1gtF-CA2f-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qapMyjUpP5S1gtF-CA2f-35" target="qapMyjUpP5S1gtF-CA2f-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="230" y="560" />
-              <mxPoint x="230" y="740" />
+              <mxPoint x="220" y="560" />
+              <mxPoint x="220" y="740" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qapMyjUpP5S1gtF-CA2f-57" value="Находятся&amp;nbsp; в" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="530" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qapMyjUpP5S1gtF-CA2f-58" value="м" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qapMyjUpP5S1gtF-CA2f-59" value="Хранят данные о" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="740" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qapMyjUpP5S1gtF-CA2f-61" value="М" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="710" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
